@@ -11,11 +11,20 @@ wa.py - summarizer is presented as a web app.<br>
 ## Stacks used 
 1. python
 2. Streamlit
-<br>
+
 ## Libraries used 
 imaplib, email, csv, tabulate, pandas, datetime, re, streamlit.
 
 ## Walkthrough
 Prerequisites: User must enable imap/pop settings and two step verification in their gmail account. Once this is done, user must generate app password and save it.<br>
-Constraint: We consider the subject to be ideal which includes the keywords for our summarization module.<br>
+Running the following command in terminal deploys the web app in local host:
+```python
+      streamlit run wa.py
+```
 User logs in using gmail id and app password. Once logged in, all emails in the inbox are fetched. Now we can filter the mails based on a particular sender and timespan. The table shows the subjects and frequency of mails based on that particular subject if it is repeated.  
+Constraint: 
+1. We consider the subject to be ideal which includes the keywords for our summarization module.<br>
+2. Deployment cannot be done right now due to encryption issues.
+
+## Screenshots
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
