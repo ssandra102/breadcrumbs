@@ -27,4 +27,7 @@ Constraint:
 2. Deployment cannot be done right now due to encryption issues.
 
 ## Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![screenshots](https://user-images.githubusercontent.com/75726461/208280959-9a0d130e-4a9c-4e1d-a529-d0c6acb2eb25.jpeg)
+![screenshot1](https://user-images.githubusercontent.com/75726461/208280947-f97a82ee-708e-4fb4-b288-a4d04437f03b.jpeg)
+![screenshot2](https://user-images.githubusercontent.com/75726461/208280951-0f890d04-a73c-4536-bcfe-5c50d4eab3a8.jpeg)
+
