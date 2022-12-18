@@ -8,8 +8,10 @@ connect_extract.py - This is used to connect to user's gmail and extract all the
 summary.py - Filter all the mails from a specific person, recieved during a specified time period.<br>
 wa.py - summarizer is presented as a web app.<br>
 
-## Language used 
-python<br>
+## Stacks used 
+1. python
+2. Streamlit
+<br>
 ## Libraries used 
 imaplib, email, csv, tabulate, pandas, datetime, re, streamlit.
 
