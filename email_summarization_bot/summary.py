@@ -77,6 +77,8 @@ class Table:
             final_dataframe = pd.DataFrame(df8)
             head = ["Subject","Frequency"]
             print(tabulate(final_dataframe, headers = head, tablefmt="fancy_grid"))
-            st.table(final_dataframe)
+            final_dataframe.to_csv("end.csv")
+            df = pd.read_csv("end.csv",names=['Subject','Frequency'])
+            st.table(df[1:)
         else:
             pass
