@@ -7,6 +7,7 @@ import pandas as pd
 from datetime import datetime
 import re
 import streamlit as st
+
 class Table:
     
     #reading and formatting csv file
@@ -53,6 +54,7 @@ class Table:
         if valid_email:
             filtered_df = words.loc[(words['Date'] >= from_date) & (words['Date'] <= to_date)]
             df6 = pd.DataFrame(filtered_df)
+            print(df6)
         else:
             pass
 
@@ -67,6 +69,7 @@ class Table:
         else:
             pass
 
+    
     #plotting the summary onto a table
     def Plot(self):
 
@@ -79,6 +82,6 @@ class Table:
             print(tabulate(final_dataframe, headers = head, tablefmt="fancy_grid"))
             final_dataframe.to_csv("end.csv")
             df = pd.read_csv("end.csv",names=['Subject','Frequency'])
-            st.table(df[1:)
+            st.table(df[1:])
         else:
             pass
