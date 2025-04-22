@@ -3,9 +3,11 @@ There are 3 files<br>
 1. connect_extract.py<br>
 2. summary.py<br>
 3. wa.py<br>
+4. calendar_event_creator.py<br>
 
 connect_extract.py - This is used to connect to user's gmail and extract all the mails into csv file 'Mails.csv'.<br>
 summary.py - Filter all the mails from a specific person, recieved during a specified time period.<br>
+calendar_event_creator.py - Extract the event date and summary mentioned in the email, and add them to the user's google calendar.<br>
 wa.py - summarizer is presented as a web app.<br>
 
 ## Stacks used 
@@ -13,7 +15,7 @@ wa.py - summarizer is presented as a web app.<br>
 2. Streamlit
 
 ## Libraries used 
-imaplib, email, csv, tabulate, pandas, datetime, re, streamlit.
+imaplib, email, csv, tabulate, pandas, datetime, re, streamlit, googleapiclient, spacy
 
 ## Walkthrough
 Prerequisites: User must enable imap/pop settings and two step verification in their gmail account. Once this is done, user must generate app password and save it.<br>
